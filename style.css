@@ -1,0 +1,15 @@
+#Instruct{
+    float: right;
+    margin-top: 3px;
+}
+.header{
+    margin-top: 0px;
+    padding: 10px;
+}
+body{
+    background-image: url("Background.webp");
+    background-size: cover;
+}
+.start{
+    font-size: 20px;
+}
