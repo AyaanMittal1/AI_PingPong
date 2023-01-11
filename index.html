@@ -18,16 +18,36 @@
   </head>
   <body>
     <center>
-    <h1 class="btn-success header">AI Mario<button id="Instruct" class="btn btn-info">Instructions</button></h1>
+    <h1 class="btn-success header">AI Mario<button id="Instruct" data-toggle="modal" data-target="#instruct_modal"
+      class="btn btn-info">Instructions</button></h1>
+  <div id="instruct_modal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">&times;</button>
+          <h3>Instructions</h3>
+        </div>
+        <div class="modal-body">
+          <img src="right.png" class="Instructions">
+          <img src="left.png" class="Instructions">
+          <img src="jump.png" class="Instructions">
+        </div>
+      </div>
+    </div>
+  </div>
     <br>
     <br>
     <button onclick="start_game()" class="btn btn-warning start">Start</button>
+    <br>
+    <br>
+    <button class="btn btn-success" onclick="restart()">Restart</button>
     <br>
     <br>
     <h3 id="status" class="btn btn-success"></h3>
     <br>
     <br>
     <div id="canvas"></div>
+    <h3 class="footer">Creater: Ayaan</h3>
   </center>
   </body>
 </html>

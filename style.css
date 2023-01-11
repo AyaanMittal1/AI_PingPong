@@ -13,3 +13,19 @@ body{
 .start{
     font-size: 20px;
 }
+.Instructions{
+    width: 45%;
+    height: 45%;
+}
+.modal-dialog{
+    width: 90%;
+}
+.footer{
+    background-color: navy;
+    color: white;
+    line-height: 2;
+    position: fixed;
+    /* bottom: 0%; */
+    top: 90%;
+    width: 100%;
+}
